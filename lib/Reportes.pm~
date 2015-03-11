@@ -1,0 +1,22 @@
+package Reportes;
+
+use Moo;
+use HTTP::Tiny;
+
+has url  => (is 'ro');
+
+has username => (is 'ro');
+
+
+
+sub  bandwith {
+
+    my $self = shift;
+
+    my $http = HTTP::Tiny->new;
+
+
+
+}
+
+1;
